@@ -329,6 +329,9 @@ button:focus {
 .home_banner_area {
   position: relative;
   z-index: 1;
+  background: url(../img/bg-cover.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
     min-height: 700px;
@@ -336,7 +339,7 @@ button:focus {
     position: relative;
     bottom: -200px;
     background: #fff;
-    padding: 30px;
+    padding: 60px 40px;
     -webkit-box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
     box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3); }
   .home_banner_area .banner_inner {
@@ -2793,20 +2796,19 @@ h6 {
 ============================================================================================ */
 /* Feature Area css
 ============================================================================================ */
-.feature_area {
-  background: #f9f9ff; }
-  .feature_area.feature_tow {
-    background: #fff; }
-    .feature_area.feature_tow .feature_item {
-      background: #f9f9ff; }
-      .feature_area.feature_tow .feature_item:hover {
-        background: #fff; }
-  .feature_area.white_feature {
-    background: #fff; }
-    .feature_area.white_feature .feature_item {
-      background: #f9f9ff; }
-      .feature_area.white_feature .feature_item:hover {
-        background: #fff; }
+.feature_area.feature_tow {
+  background: #fff; }
+  .feature_area.feature_tow .feature_item {
+    background: #f9f9ff; }
+    .feature_area.feature_tow .feature_item:hover {
+      background: #fff; }
+
+.feature_area.white_feature {
+  background: #fff; }
+  .feature_area.white_feature .feature_item {
+    background: #f9f9ff; }
+    .feature_area.white_feature .feature_item:hover {
+      background: #fff; }
 
 .feature_inner {
   margin-bottom: -30px; }
@@ -2892,7 +2894,6 @@ h6 {
 
 .personal_text p {
   font-family: "Roboto", sans-serif;
-  max-width: 540px;
   color: #777777;
   margin-bottom: 40px; }
 
