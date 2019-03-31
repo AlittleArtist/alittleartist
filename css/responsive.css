@@ -53,7 +53,6 @@
 		display: block;
 	}
 	.home_banner_area .banner_content{
-		max-width: 500px;
 		margin: auto;
 	}
 	.home_banner_area .banner_inner .banner_content .media .d-flex {
@@ -381,7 +380,7 @@
 		padding: 0px 18px;
 	}
 	.gallery_f_inner{
-		max-width: 340px;
+		/* max-width: 340px; */
 		margin: 0px auto -45px;
 	}
 	.blog_categorie_area {

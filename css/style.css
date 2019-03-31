@@ -334,10 +334,9 @@ button:focus {
   background-attachment: fixed;
   margin-bottom: 200px; }
   .home_banner_area .box_1620 {
-    min-height: 700px;
     border-radius: 12px;
     position: relative;
-    bottom: -200px;
+    bottom: -90px;
     background: #fff;
     padding: 60px 40px;
     -webkit-box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
@@ -461,6 +460,8 @@ button:focus {
 
 /* End Home Banner Area css
 ============================================================================================ */
+/* additional
+============================================================================================ */
 .story-sections {
   margin-bottom: 80px; }
 
@@ -470,7 +471,24 @@ button:focus {
   border-color: #fff;
   background: #fff; }
 
-.design-list li img {
+.ui-list {
+  margin-top: 60px; }
+
+.group-cat {
+  margin-bottom: 40px; }
+
+.group-title {
+  color: #222222;
+  font-size: 21px;
+  font-family: "Heebo", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+.bg-about {
+  background: url(../img/port/bg-about.jpg) right top no-repeat !important; }
+
+img {
   display: block;
   width: 100%; }
 
