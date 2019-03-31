@@ -248,6 +248,7 @@
 			&:hover {
 				background: #fff;
 			}
+
 		}
 	}
 
@@ -274,6 +275,10 @@
 	@include transition;
 	background: #fff;
 	margin-bottom: 30px;
+
+	ul.role {
+		padding-left: 20px;
+	}
 
 	i {
 		margin-bottom: 35px;
