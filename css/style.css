@@ -3087,7 +3087,10 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .footer_area {
-  background: #000; }
+  background: #f1f1f1;
+  text-align: center;
+  color: #ddd;
+  padding: 20px 0; }
 
 .f_title {
   margin-bottom: 35px; }
@@ -3103,7 +3106,7 @@ h6 {
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   color: #777777;
-  margin-bottom: 30px; }
+  margin-bottom: 0; }
   .ab_widget p a {
     color: #766dff; }
   .ab_widget p + p {
