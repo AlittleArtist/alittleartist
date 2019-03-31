@@ -1,6 +1,5 @@
 /* Welcome Area css
 ============================================================================================ */
-.welcome_area {}
 
 .welcome_inner {
 	.welcome_img {
@@ -270,6 +269,7 @@
 }
 
 .feature_item {
+	min-height: 490px;
 	padding: 50px 35px;
 	border-radius: 10px;
 	@include transition;
